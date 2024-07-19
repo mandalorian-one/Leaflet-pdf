@@ -1,4 +1,4 @@
-import 'jspdf';
+import jspdf from 'jspdf';
 import domtoimage from 'dom-to-image-more';
 import { changeDpiBlob, changeDpiDataUrl } from 'changedpi';
 

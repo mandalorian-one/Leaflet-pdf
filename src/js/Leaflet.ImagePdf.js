@@ -7,7 +7,7 @@
  *
  **/
 
-import "jspdf";
+import jspdf from "jspdf";
 import domtoimage from 'dom-to-image-more';
 
 //import * as htmlToImage from 'html-to-image';
