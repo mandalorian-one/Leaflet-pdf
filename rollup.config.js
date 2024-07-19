@@ -3,7 +3,7 @@ import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import terser from '@rollup/plugin-terser';
 
-const external = ['leaflet', 'jspdf', 'changedpi'];
+const external = ['leaflet', 'jspdf', 'changedpi', 'html-to-image', 'dom-to-image-more'];
 
 const esConfig = {
     input: 'src/js/Leaflet.ImagePdf.js',

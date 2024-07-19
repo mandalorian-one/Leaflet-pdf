@@ -1,4 +1,5 @@
 import 'jspdf';
+import domtoimage from 'dom-to-image-more';
 import { changeDpiBlob, changeDpiDataUrl } from 'changedpi';
 
 function _arrayLikeToArray(r, a) {

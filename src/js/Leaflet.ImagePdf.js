@@ -8,6 +8,8 @@
  **/
 
 import "jspdf";
+import domtoimage from 'dom-to-image-more';
+
 //import * as htmlToImage from 'html-to-image';
 import {
     coverLineWithRectangles, coverAreaWithRectangles, areaRectanglesCount, Rectangle

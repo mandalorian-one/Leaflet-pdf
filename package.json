@@ -1,6 +1,6 @@
 {
   "name": "leaflet.pdf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "description": "Leaflet plugin that creates pdf or image of a selected map region",
   "main": "dist/Leaflet.ImagePdf.umd.js",
@@ -27,13 +27,16 @@
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^26.0.1",
     "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "dom-to-image-more": "^3.3.0",
     "jspdf": "^2.5.1",
     "leaflet": "^1.7.1",
     "rollup": "^4.18.1"
   },
   "dependencies": {
-    "@rollup/plugin-terser": "^0.4.4",
     "changedpi": "^1.0.4",
-    "html-to-image": "^1.11.11"
+    "dom-to-image-more": "^3.3.0",
+    "jspdf": "^2.5.1",
+    "leaflet": "^1.7.1"
   }
 }

@@ -1,8 +1,8 @@
 (function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('jspdf'), require('changedpi')) :
-  typeof define === 'function' && define.amd ? define(['exports', 'jspdf', 'changedpi'], factory) :
-  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory((global.Leaflet = global.Leaflet || {}, global.Leaflet.ImagePdf = {}), null, global.changedpi));
-})(this, (function (exports, jspdf$1, changedpi) { 'use strict';
+  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('jspdf'), require('dom-to-image-more'), require('changedpi')) :
+  typeof define === 'function' && define.amd ? define(['exports', 'jspdf', 'dom-to-image-more', 'changedpi'], factory) :
+  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory((global.Leaflet = global.Leaflet || {}, global.Leaflet.ImagePdf = {}), null, global.domtoimage, global.changedpi));
+})(this, (function (exports, jspdf$1, domtoimage, changedpi) { 'use strict';
 
   function _arrayLikeToArray(r, a) {
     (null == a || a > r.length) && (a = r.length);
