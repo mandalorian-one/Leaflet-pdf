@@ -1,4 +1,4 @@
-import jspdf from 'jspdf';
+import { jsPDF } from 'jspdf';
 import domtoimage from 'dom-to-image-more';
 import { changeDpiBlob, changeDpiDataUrl } from 'changedpi';
 
@@ -1274,7 +1274,7 @@ L.Control.ImagePdf = L.Control.extend({
       try {
         var pageFormat = [w, h];
         if (pdf == null) {
-          pdf = new jspdf.jsPDF({
+          pdf = new jsPDF({
             format: pageFormat,
             orientation: orientation,
             compress: true

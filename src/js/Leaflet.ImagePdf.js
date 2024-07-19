@@ -7,7 +7,7 @@
  *
  **/
 
-import jspdf from "jspdf";
+import { jsPDF } from "jspdf";
 import domtoimage from 'dom-to-image-more';
 
 //import * as htmlToImage from 'html-to-image';
@@ -805,7 +805,7 @@ L.Control.ImagePdf = L.Control.extend({
             try {
                 let pageFormat = [w, h]
                 if (pdf == null) {
-                    pdf = new jspdf.jsPDF({format: pageFormat, orientation: orientation, compress: true});
+                    pdf = new jsPDF({format: pageFormat, orientation: orientation, compress: true});
                     pdf.setFontSize(this.options.pdfFontSize);
                     if (this.options.pdfDocumentProperties !== null && Object.keys(this.options.pdfDocumentProperties).length > 0) {
                         pdf.setDocumentProperties(this.options.pdfDocumentProperties)
